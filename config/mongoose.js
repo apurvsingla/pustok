@@ -1,7 +1,7 @@
 const dotEnv = require('dotenv').config();
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.DATABASE_KEY, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://apurv:Singla%401265@development-1265-bm0af.gcp.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
 
 
 const apiKey = process.env.API_KEY
