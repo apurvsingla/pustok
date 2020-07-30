@@ -14,4 +14,5 @@ router.use('/', require('./shop'));
 router.use('/', require('./pages'));
 router.use('/', require('./blog'));
 router.use('/', require('./contact'));
+router.use('/', require('./users'));
 module.exports = router;
